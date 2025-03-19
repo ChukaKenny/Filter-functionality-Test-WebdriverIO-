@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "@wdio/mocha-framework"
+        ]
+    },
+    "scripts": {
+                "wdio": "wdio run wdio.conf.js"
+               }
+
+}
